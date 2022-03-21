@@ -40,7 +40,7 @@ jobs:
     - name: Clone source code
       env:
         REPO_URL: https://github.com/coolsnowwolf/lede
-        REPO_BRANCH: master
+        REPO_BRANCH: 20211107
       run: |
         git clone $REPO_URL -b $REPO_BRANCH openwrt
  
